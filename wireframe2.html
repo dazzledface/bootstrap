@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,16 +8,17 @@
 
 <body>
     <header>
-      <h1>awesome blog</h1>
+    <div id="banner">
+		<h1>awesome blog</h1>
     </header>
 
-    <section>
-      <header>
-          <p>home</p>
-          <p>about me</p>
-          <p>subscribe</p>
-      </header>
-    </section>
+  <div id="navigation">
+     <ul>
+       <li class="center"><a>home</a></li>          
+           <li><a>about me</a></li>
+           <li><a>subscribe</a></li>
+      </ul>
+     </div>
 
     <section>
       <header>
@@ -24,19 +26,13 @@
       </header>
       <article>
       	<div>
-         <img src="http://placehold.it/200x250">
+      	<div class="post"> 
+    	<img src="http://placehold.it/200x250">
       	</div>
-        <p>read my latest posts here!</p>
+      	<p>here is where i say all my stuff</p>
       </article>
     </section>
-    
-    <section>
-      <article>
-        <img src="http://placehold.it/200x100">
-        <p>view my latest photos here!</p>
-      </article>
-    </section>
-	
+
     <section>
       <header>
       	<h1>comments</h1>
@@ -50,16 +46,15 @@
     </section>
     
     <hr>
-    
-    <section>
+
       <footer>
-        <p>awesome blogging</p>
-        <nav>
+       <div id="navigation">     
           <ul>
-            <li>about us</li>
-            <li>help</li>
-          </ul> 
-        </nav>
+       		<li class="center"><a>home</a></li>          
+           	<li><a>about us</a></li>
+           	<li><a>help</a></li>
+      	  </ul>
+        </div>
       </footer>
     </section>
   </body>
