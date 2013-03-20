@@ -5,11 +5,16 @@
 body {
   background: beige;
   width: 500px;
-  margin: 0 auto;
-  
-  margin-top:30px;
+  margin: 0 auto;  
+  margin-top: 30px;
       }
       
+h1 {
+  font: 16px Tahoma, sans-serif;
+  font-style: bold;
+  color: black;
+}
+
 #banner {
   max-width: 500px;
   max-height: 150px;
