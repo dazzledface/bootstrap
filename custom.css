@@ -87,4 +87,28 @@ article {
        
 .post {
   float: right;
+  width: 150px;
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 10px #4d4d4d;
+  -moz-box-shadow: 0px 0px 10px #4d4d4d;
+  box-shadow: 0px 0px 10px #4d4d4d;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;  
+  border-radius: 8px;
+  border:solid white 3px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.image {
+  background: red;
+  padding: 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;  
+  border-radius: 8px;
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
 }
