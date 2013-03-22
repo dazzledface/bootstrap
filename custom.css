@@ -18,23 +18,21 @@ h1 {
 article p {
   font: 14px Tahoma, sans-serif;
   width: 800px;
+  border-radius:20px;
   }
     
 #banner {
   max-width: 500px;
   max-height: 150px;
   background: orange;
-  border-style: solid;
   border-width: 2px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   text-align: center;
-  border-radius:20px;
   }
 
 section {
   background: gray;
-  border-style: solid;
   border-width: 2px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -43,7 +41,6 @@ section {
 #navigation {
   max-width:500px;
   height:30px;
-  border-style: solid;  
   border-width: 2px;
   background: gray;
   margin: 5px 5px 5px 5px;  
